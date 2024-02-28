@@ -1,0 +1,7 @@
+/vendor
+composer.lock
+/demo/keys/*.key
+/demo/config/ds_config.php
+/demo/config/signers.php
+/demo/config/ccs.php
+.env

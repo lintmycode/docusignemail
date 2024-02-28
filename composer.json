@@ -1,0 +1,9 @@
+{
+    "autoload": {
+        "psr-4": {"DocuSign\\": "./src/"}
+    },
+ 
+    "require": {
+        "docusign/esign-client": "^6.14.0-rc"
+    }
+}
