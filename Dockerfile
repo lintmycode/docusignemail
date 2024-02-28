@@ -1,6 +1,6 @@
 
-# Use PHP 7.4 official image as the base image
-FROM php:7.4-cli
+# Use PHP latest official image as the base image
+FROM php:latest
 
 # Set the working directory inside the container
 WORKDIR /app

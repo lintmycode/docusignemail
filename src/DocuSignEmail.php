@@ -43,12 +43,12 @@ use \DocuSign\eSign\Configuration;
 
 class DocuSignEmail 
 {
-  protected static $accessToken;
-  protected static $accountId;
-  protected static $signers;
-  protected static $ccs;
-  protected static $apiClient;
-  protected static $envelopeDefinition;
+  protected static string $accessToken;
+  protected static string $accountId;
+  protected static array $signers;
+  protected static array $ccs;
+  protected static ApiClient $apiClient;
+  protected static EnvelopeDefinition $envelopeDefinition;
 
   /**
    * Constructor for initializing an instance of the class with an envelope definition.
