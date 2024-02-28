@@ -1,7 +1,7 @@
 # DocuSignEmail
 A wrapper for DocuSign SDK; 90% of the time you just need to push some pdf files and request their signature by email. That exactly what this package does.
 
-Requires `php7.4` or later.
+For `php7.0`. Uses older versions of everything. Somehow it works.
 
 ## Getting started
 You'll need to create a new JWT application with your DocuSign developer account. There you need to:

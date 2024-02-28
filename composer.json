@@ -1,9 +1,15 @@
 {
-    "autoload": {
-        "psr-4": {"DocuSign\\": "./src/"}
-    },
- 
-    "require": {
-        "docusign/esign-client": "^6.14.0-rc"
+  "autoload": {
+    "psr-4": {"DocuSign\\": "./src/"}
+  },
+
+  "require": {
+    "docusign/esign-client": "5.7.0"
+  },
+
+  "config": {
+    "platform": {
+        "php": "7.0"
     }
+  }
 }
