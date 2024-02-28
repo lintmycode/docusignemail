@@ -5,5 +5,11 @@
  
     "require": {
         "docusign/esign-client": "^6.14.0-rc"
-    }
+    },
+
+    "config": {
+      "platform": {
+          "php": "7.4"
+      }
+  }
 }
