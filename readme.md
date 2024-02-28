@@ -59,7 +59,8 @@ try {
 
 ## Running the demo
 ````
-composer install
+docker-compose build --no-cache
+docker-compose run app composer update
 docker-compose up
 ````
 

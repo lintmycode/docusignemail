@@ -5,3 +5,5 @@ composer.lock
 /demo/config/signers.php
 /demo/config/ccs.php
 .env
+docusignemail-dist/
+docusignemail-dist.zip
